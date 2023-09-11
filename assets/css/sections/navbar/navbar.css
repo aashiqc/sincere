@@ -1,0 +1,94 @@
+.navbar {
+    color:#10172b;
+    font-family: var(--font-raleway);
+    font-weight: 600;
+    
+}
+
+
+.logo img {
+    max-width: 15rem;
+
+   
+}
+.navbar-collapse {
+    gap: 1rem;
+}
+.nav-underline {
+    color: #10172b;
+}
+.affix {
+    margin: 0 70px;
+    padding: 0 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: auto;
+    background: #fff;
+    border-bottom: white;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
+    z-index: 999;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.nav-container {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-container ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.is-sticky {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    background-color: var(--white-color) !important;
+    -webkit-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.navbar-collapse {
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+@media screen and (max-width: 768px) {
+    
+
+    .logo img {
+        max-width: 10rem;
+        left: 1rem;
+    }
+    .nav-container {
+        padding: 0 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-brand {
+        padding-left: 0px;
+    }
+}
+
+

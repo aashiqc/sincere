@@ -1,0 +1,15 @@
+
+.vision_mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 20px;
+   
+}
+.vision-container,.mission-container {
+    align-items: center;
+    justify-content: center;
+    max-width: 60rem;
+}

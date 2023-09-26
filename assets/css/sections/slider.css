@@ -29,6 +29,15 @@
     color: #fff; /* Set text color for the caption */
   }
 
+
+  .carousel-caption h5 {
+    font-family: var(--font-monteserrat);
+    font-weight: 700;
+    font-size: 3rem;
+    
+
+  }
+
   
   @media (max-width: 768px) {
     img {

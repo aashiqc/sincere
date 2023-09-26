@@ -21,7 +21,15 @@
    
 }
 .message_div {
+
+    display: flex;
+    flex-direction: column;
     margin: 2rem;
+    justify-content: center;
+    
+}
+.message_div h1 {
+    font-weight: 700;
 }
 
 
@@ -41,13 +49,18 @@
         padding-bottom: 4rem;
     }
     .message_div {
-        margin: 0.5rem;
-        text-align: justify;
+        margin: 0.1rem;
+        text-align: left;
     }
     
 }
 @media screen  and (min-width:991px){
     .container_message img {
         padding-top: 2rem;
+    }
+}
+@media screen  and (max-width:769px){
+    .container_message {
+        padding: 20px;
     }
 }

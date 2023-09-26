@@ -1,0 +1,64 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+.about-container h1 {
+    
+    font-weight: 600;
+    
+}
+.title-container {
+    position: relative; /* Make it a positioning context for pseudo-element */
+    display: inline-block; /* Allow the div to be sized based on its content */
+  }
+
+  /* Style for the underline using ::after pseudo-element */
+  .title-container::after {
+    content: ""; /* Required for the pseudo-element to appear */
+    position: absolute; /* Position it absolutely within the container */
+    bottom: 0; /* Position it at the bottom of the container */
+    left: 0; /* Align it with the left edge of the container */
+    width: 10rem; /* Set the width of the underline */
+    height: 2px; /* Set the height (thickness) of the underline */
+    background-color: black; /* Set the color of the underline */
+  }
+.about-container img {
+    position: relative;
+    max-width: 20rem;
+   
+}
+.chairman h3 {
+    font-weight: 600;
+    max-width: 60rem;
+    padding: 10px;
+}
+.chairman p{
+    max-width: 60rem;
+    padding: 10px;
+}
+.chairman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 2rem;
+
+}
+.about_section {
+    background-color: #eaf2ef;
+}
+
+
+.founder_border {
+    margin-top: 2rem;
+    border-color: #10172b;
+    border-width: 3rem;
+    border-style: solid;
+    display: inline-block; /* Ensures the border doesn't expand to full width */
+}
